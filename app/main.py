@@ -1,5 +1,8 @@
 import sys
 from app.graph.workflow import app_graph
+from dotenv import load_dotenv
+
+load_dotenv(override=True)
 
 def main():
     """
